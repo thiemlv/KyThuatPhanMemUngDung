@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0!important;
+    box-sizing: border-box!important;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif !important;
+}
+ul{
+    list-style: none;
+}
+/*common*/
+h5{
+    font-weight: 600!important;
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+    font-size: 12px;
+}
+.title{
+    font-weight: 1000;
+    font-size: 64px;
+    color: #df453e;
+}
+.btn-pink-rgba{
+    background: #fbceb5 !important;
+    border: 1px solid #fbceb5 !important;
+    color: #000 !important;
+}
+
+.bg-cl-red{
+    background-color: #df453e;
+}
+.btn-bg-red{
+    background-color: #df453e;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    padding: 12px 0;
+}
+.link-red{
+    color: #df453e;
+    text-decoration: none;
+}
+.btn-bg-red:hover {
+    opacity: 0.7;
+    color: white!important;
+    font-weight: 600;
+}
+.bg-cl-white{
+    background-color: white;
+}
+
+.btn-pink-rgba:hover{
+    opacity: 0.7;
+}
+
+/*login*/
+.bg-login, .bg-signin{
+    height: 100vh;
+    background-image: url("/assets/img/bg/bg-login.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.btn-login, .btn-signin{
+    width: 200px;
+    border-radius: 20px;
+    height: 38px;
+}
+.login-form{
+    padding-top: 20vh;
+}
+
+.signin-form{
+    padding-top: 10vh;
+}
+
+/*admin header*/
+.brand{
+    height: 70px;
+    padding-top: 18px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.nav-menu{
+    background: #df453e;
+    min-height: 100%;
+    max-height: 200%;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item a li {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+.nav-item a:hover li{
+    background: #b62d25;
+}
+
+/*admin common*/
+.btn-functions-admin{
+    padding: 64px 0;
+}
+.button-67 {
+    width: max-content;
+    align-items: center;
+    background: #df453e;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    word-break: normal;
+    word-spacing: normal;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.button-67:hover {
+    background: #f8f8ff;
+    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+    color: #2a1f62;
+
+}
+
+.hover{
+    background: #f8f8ff;
+    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+    color: #2a1f62;
+}
+
+@media (min-width: 768px) {
+    .button-67 {
+        padding: 24px;
+    }
+}
+
+/*user home*/
+.home-nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.home-nav ul{
+    list-style: none;
+    margin: 0px;
+}
+
+.home-nav ul a{
+    padding: 0 14px;
+    color: white;
+    font-size: 1rem;
+    line-height: 70px;
+}
+
+.home-nav ul li{
+    display: inline-block;
+}
+
+.slide-bg{
+    background-image: url("/assets/img/bg/7.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.icon-action a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.body{
+    background-color: #f5f5f5;
+}
+
+/*shop*/
+.cart,
+.productdetail,
+.shop{
+    padding-top: 160px;
+}
+
+.filter-shop a{
+    color: #df453e;
+}
+
+a:hover{
+    color: #df453e;
+    font-weight: 600;
+}
+.filter-by-price li{
+    border-bottom: 1px solid #df453e;
+}
+
+.filter-by-price a{
+    color: #df453e;
+    text-decoration: none;
+}
+
+.quantity{
+    max-width: 3.631em!important;
+    padding: 0.3em!important;
+}
+
+footer{
+    background-color: black;
+}
+footer h4{
+    color: white;
+    font-weight: 600;
+}
+
+footer ul li{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
